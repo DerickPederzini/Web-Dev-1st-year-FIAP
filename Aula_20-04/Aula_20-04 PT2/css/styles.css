@@ -1,0 +1,105 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Cabin', sans-serif;}
+
+
+
+:root {
+    --background-color: rgb(5, 5, 54) ;
+    --color-my: #f6f6f6f6;
+    --color-p: #dfdfdf;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.header-menu ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header-page{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+    position: absolute; 
+    border: solid #dc143c 2px;
+    border-left: 0px;
+    border-right: 0px;    
+}
+
+a{ 
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+
+}
+
+.button:hover{
+    color: #dc143c;
+    background-color:transparent;
+}
+
+
+
+.button{
+    border: solid #dc143c 2px;
+    border-radius: 15px;
+    padding: 5px 18px;
+    background-color: #dc143c ;
+    transition: 300ms;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.paragraph{
+    color: var(--color-my);
+    font-size: 18px;
+    width: 55%;
+    margin-bottom: 30px;
+
+
+}
+
+.title {
+    font-size: 10vmax;
+    color: var(--color-p);
+    margin-bottom: 20px;
+}
+
+
+
+.bg-blue {
+    background-color: var(--background-color);
+}
+
+.bg-img1{ background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0, .9)),
+     url(../img/pexels-asad-photo-maldives-14615249.jpg);
+    
+        
+}
+
+.bg-img2{ background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0, .8)),
+    url(../img/pexels-dajana-reçi-14084533\ \(1\).jpg);
+
+}
+
+
+

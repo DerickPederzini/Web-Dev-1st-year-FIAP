@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Utilitários aula04 -grid-link-formulario</title>
+
+    <link rel="shortcut icon" href="./img/robot.svg" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- icones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- chamada css bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- chamada da minha css -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <nav class="navbar navbar-expand-lg mt-2">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#"> <i class="bi bi-robot m-2"></i>RoboCup </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-text-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#event">Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fights">Fights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#robots">Robots</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galery">Galery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <article class="row mb-4 p-4 d-flex align-items-center" id="event">
+            <section class="col-md-6">
+
+                <h1 class="display-2 text-green">1SIPH</h1>
+
+                <p class="lead">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quo dolore quasi asperiores
+                    necessitatibus! <span class="text-pink">Adipisci dicta voluptatem quasi</span>, maxime odio sint
+                    ducimus placeat.
+                </p>
+
+                <a href="" class="btn btn-danger rounded-4"> More information<i
+                        class="bi bi-arrow-down-circle ms-1 position-icon"></i></a>
+            </section>
+
+            <figure class="col-md-6">
+                <img src="./img (1)/Deconstructed robot-amico (1).png" alt="Scientists constructing a robot"
+                    class="img-fluid">
+            </figure>
+        </article>
+
+        <!-- tabela -->
+        <section class="mb-4 table-responsive" id="fights">
+            <h2 class="text-green mb-3">Equipes da RoboCup</h2>
+
+            <table class="table table-hover text-center table-striped">
+                <thead class="table-danger">
+                    <tr>
+                        <th>Nome do Robô</th>
+                        <th>Nome da Equipe</th>
+                        <th>Sala</th>
+                        <th>Nome da Arma</th>
+                        <th>Integrantes</th>
+                        <th>Data da luta</th>
+                        <th>Local</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Ástron</td>
+                        <td>Zênite</td>
+                        <td>1SIPH</td>
+                        <td>Big e Bang</td>
+                        <td>5</td>
+                        <td>30 de Fevereiro</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ástron</td>
+                        <td>Zênite</td>
+                        <td>1SIPH</td>
+                        <td>Big e Bang</td>
+                        <td>5</td>
+                        <td>30 de Fevereiro</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Não Ástron</td>
+                        <td>Não Zênite</td>
+                        <td>1SIPZ</td>
+                        <td>Boing e Bing</td>
+                        <td>5</td>
+                        <td>30 de Fevereiro</td>
+                        <td>Lins</td>
+                    </tr>
+
+                    <tr>
+                        <td>Derickão</td>
+                        <td>Pederzinis</td>
+                        <td>1SIPP</td>
+                        <td>Cabe e Ção</td>
+                        <td>1</td>
+                        <td>30 de Fevereiro</td>
+                        <td>Lins</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot class="table-light">
+                    <tr>
+                        <td colspan="7">Dados Atualizados: 17/08/2023</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+        </section>
+
+        <!-- cards -->
+        <section class="row my-4" id="robots">
+            <h2 class="text-green mb-4">Melhores Robôs</h2>
+
+            <!-- 1º robo -->
+            <div class="col-md-6 col-lg-3 my-3">
+                <div class="card">
+                    <img src="./img (1)/pexels-lenin-estrada-2103864 (1).jpg" class="card-img-top"
+                        alt="Imagem do Robo Wall-E">
+                    <div class="card-body">
+                        <h5 class="card-title">Wall-E</h5>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <a href="#" class="btn btn-outline-primary">Galeria de imagens</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 my-3">
+                <div class="card">
+                    <img src="./img (1)/pexels-pixabay-73910.jpg" class="card-img-top" alt="Imagem do Robo Espacial">
+                    <div class="card-body">
+                        <h5 class="card-title">Wall-E</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Galeria de imagens</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 my-3">
+                <div class="card">
+                    <img src="./img (1)/pexels-ryutaro-tsukata-6249454.jpg" class="card-img-top"
+                        alt="Imagem do Robo de madeira">
+                    <div class="card-body">
+                        <h5 class="card-title">Wall-E</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Galeria de imagens</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 my-3">
+                <div class="card">
+                    <img src="./img (1)/pexels-vanessa-loring-7869452.jpg" class="card-img-top"
+                        alt="Imagem do Robo de água">
+                    <div class="card-body">
+                        <h5 class="card-title">Wall-E</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Galeria de imagens</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-blue my-4">Galeria de imagens</h2>
+
+            <div class="row d-flex align-items-center" id="galery">
+                <div class="col-md-6 my-2">
+                    <img src="./img (1)/pexels-vanessa-loring-7869452.jpg" alt="Imagem do robo de água"
+                        class="img-fluid">
+                </div>
+
+                <div class="col-md-6 my-2">
+                    <div class="row my-2">
+                        <div class="col-6 my-2">
+                            <img src="./img (1)/pexels-pixabay-73910.jpg" alt="" class="img-fluid rounded-2">
+                        </div>
+                        <div class="col-6 my-2">
+                            <img src="./img (1)/pexels-pixabay-73910.jpg" alt="" class="img-fluid rounded-2">
+                        </div>
+                        <div class="col-6 my-2">
+                            <img src="./img (1)/pexels-pixabay-73910.jpg" alt="" class="img-fluid rounded-2">
+                        </div>
+                        <div class="col-6 my-2">
+                            <img src="./img (1)/pexels-pixabay-73910.jpg" alt="" class="img-fluid rounded-2">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- form -->
+
+        <section>
+
+            <h2 class="text-blue my-4">Contato</h2>
+
+            <form id="data" name="data" method="get" action="">
+                
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <label for="name" class="form-label">Nome: </label>
+                        <input type="text" class="form-control border border-black" id="name" placeholder="Ex: Derick Pederzini Silva" minlength="4" maxlength="50" required>
+                    </div>
+
+                    <button>Enviar</button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- chamada do java script bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

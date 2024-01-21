@@ -1,0 +1,72 @@
+:root{
+    ---green-color: #0b8835;
+    --baby-blue-color: #008bdb;
+
+}
+
+.second-content{
+    overflow:hidden;
+}
+
+.home-link{
+    font-weight: 700;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.navbar{ 
+    height: 5em;
+}
+
+.login-link{
+    background-color: var(---green-color);
+}
+
+.login-link:hover{
+    background-color: #008bdb;
+
+}
+
+.title{
+    font-weight: 700 ;
+}
+
+.paragraph{ 
+    font-size: 24px;
+}
+.google-icon{
+    width: 130px;
+}
+
+/* fim da primeira pagina */
+
+.bg-height{
+    height: 60vh;
+    background-color: var(---green-color);
+}
+
+.second-content-question{
+    text-align: center;
+    color: #fff;
+    font-size: 46px;
+}
+
+.icons{
+    width: 20%;
+    background: linear-gradient(to right, #4382c9, #ff00c8); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.box-3{
+    text-align: center;
+}
+
+.box-3-bold{
+    font-weight: 700;
+}

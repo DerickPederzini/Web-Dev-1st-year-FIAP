@@ -1,0 +1,97 @@
+:root{
+    ---green-color: #0b8835;
+    --baby-blue-color: #008bdb;
+    --text-size-p: 20px;
+    --bg-page-4: #e6e6e6;
+    --font-weight: 300;
+
+}
+
+.second-content{
+    overflow:hidden;
+}
+
+.home-link{
+    font-weight: 700;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.navbar{ 
+    height: 5em;
+}
+
+.login-link{
+    background-color: var(---green-color);
+}
+
+.login-link:hover{
+    background-color: #008bdb;
+
+}
+
+.title{
+    font-weight: 700 ;
+}
+
+.paragraph{ 
+    font-size: var(--text-size-p);
+    font-weight: var(--font-weight);
+}
+
+.google-icon{
+    width: 130px;
+}
+
+/* fim da primeira pagina */
+
+.bg-height{
+    height: 60vh;
+    background-color: var(---green-color);
+}
+
+.second-content-question{
+    text-align: center;
+    color: #fff;
+    font-size: 46px;
+}
+
+.icons{
+    width: 20%;
+    background: linear-gradient(to right, #4382c9, #ff00c8); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.box-3{
+    text-align: center;
+}
+
+.box-3-bold{
+    font-weight: 700;
+}
+
+.page-4{
+    background-color: var(--bg-page-4);
+
+}
+
+.title-page-4{
+    font-size: 46px;
+}
+
+.paragraph-page-4{
+    font-size: var(--text-size-p);
+    font-weight: var(--font-weight);
+}
+
+.page-5{
+    background: url(../img/pexels-cottonbro-studio-3585091.jpg) no-repeat 0 0;
+    background-size: cover; 
+    height: 860px;
+}   

@@ -1,0 +1,21 @@
+:root{
+    --color-green: #0b573a;
+}
+
+
+body{
+    font-family:sans-serif;
+}
+
+.text-green{
+    color: var(--color-green);
+}
+
+.position-icon{
+    position: relative;
+    left: 2px;
+    top: 1px;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}

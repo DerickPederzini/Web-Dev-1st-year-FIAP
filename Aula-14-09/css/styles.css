@@ -1,0 +1,48 @@
+:root{
+    --color-green: #0b573a;
+    --color-pink: #dc143c;
+    --font-body: 'sans-serif'
+}
+
+body{
+    font-family:sans-serif;
+}
+
+.text-green{
+    color: var(--color-green);
+}
+
+.text-pink{
+    color:  var(--color-pink);
+}
+
+.position-icon{
+    position: relative;
+    left: 2px;
+    top: 1px;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+
+.logo{ 
+    color: var(--color-green);
+    font-size: 26px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    font-weight: 550;
+    color: var(--color-green);
+
+}
+
+.table-hover:hover{
+    color: var(--color-pink);
+}
+
+textarea{
+    resize: none;
+    height: 160px;
+}
+
+

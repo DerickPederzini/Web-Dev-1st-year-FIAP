@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --color-bg4: #0D5738;
+    --color-bege: #DDBEA8;
+    --color-brown: #5C370A;
+    --color-green: #1e4e2d;
+}
+
+ul {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-4 { 
+    background-color: var(--color-bg4);
+}
+
+.title4 { 
+    text-align: center;
+    font-weight: 800;
+    font-size: 85px;
+    padding-top: 30px;
+    color: var(--color-bege);
+}
+
+.logo4 { 
+        width: 20%;
+        position: relative;
+        top: 100px;
+        transition: 0.6s;
+}
+
+.logo4:hover { 
+    transform: scale(1.2);
+}
+
+
+.content4{ 
+    position: relative;
+    top: 80px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    perspective: 800px;
+}
+
+.word-open { 
+    border: #DDBEA8 solid 5px;
+    border-radius: 120px;
+    padding: 12px;
+    font-size: 44px;
+    color: var(--color-bege);
+    font-weight: 450;
+    transition: 0.5s;
+    width: fit-content;
+}
+
+ul:hover .word-open{ 
+    transform: scale(1.3) translateY(-90px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    color: var(--color-green);
+    background-color: #DDBEA8;
+}
+
+ul:hover .paragraph{ 
+    transition: 0.4s;
+    transform: scale(1.1) translateY(-90px);
+    display:flex;
+}
+
+.paragraph {
+    transition: 0.4s;
+    display: none;
+    margin-top: 90px;
+    text-align: center;
+    width: 15%;
+    word-break: break-all;
+    word-wrap: break-word;
+    position: fixed; 
+    animation: animate-div 0.6s;
+}
+
+@keyframes animate-div {
+    from { opacity: 0; margin-top: 250px;}
+    to { opacity: 1;margin-top:92px;}
+}
+
+footer { 
+    width: 100%;
+    height: 15vh;
+    background-color: var(--color-bege);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-brown);
+}   
+
+.footer-text-one { 
+    margin-left: 50px;
+}
+
+.footer-text-third { 
+    margin-right: 50px;
+}
